@@ -145,8 +145,8 @@
 ## 5. Stripe live/test keys
 # secrets_filter = true
 
-## Defaults to true. If enabled, upon hitting enter Atuin will immediately execute the command. Press tab to return to the shell and edit.
-# This applies for new installs. Old installs will keep the old behaviour unless configured otherwise.
+## Defaults to false. If enabled, upon hitting enter Atuin will immediately execute the command. Press tab to return to the shell and edit.
+# This "true" applies for new installs, old installs will keep the old ("false") behaviour unless configured otherwise.
 enter_accept = true
 
 ## Defaults to "emacs".  This specifies the keymap on the startup of `atuin
